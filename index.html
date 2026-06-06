@@ -14,7 +14,7 @@
 <body>
 <header><h1>Dashboard COMEX — Créances clients</h1><div class="sub">Version GitHub : le dashboard lit automatiquement le fichier <b>data/overdue.json</b>.</div></header>
 <div class="wrap">
-  <div class="card"><span id="status" class="status warn">Chargement de la base JSON…</span><p class="note">Pour mettre à jour le dashboard, remplacez uniquement <b>data/overdue.json</b> dans GitHub. Le fichier HTML n’a pas besoin d’être modifié.</p><div id="lastJsonUrl" class="tech">URL JSON appelée : —</div><div id="lastJsonRead" class="tech">Dernière lecture : —</div></div>
+  <div class="card"><span id="status" class="status warn">Chargement de la base JSON…</span><p class="note">Pour mettre à jour le tableau de bord, remplacez uniquement <b>data/overdue.json</b> dans GitHub. Le fichier HTML n’a pas besoin d’être modifié.</p><div id="lastJsonUrl" class="tech">URL JSON appelée : —</div><div id="lastJsonRead" class="tech">Dernière lecture : —</div></div>
   <div id="errorBox" class="errbox"></div>
   <div class="card"><button class="btn" id="reloadJson">Recharger dernière base JSON</button></div>
   <div class="card filters"><input id="search" placeholder="Recherche client, facture, commentaire…"><select id="delegado"><option value="">Tous Delegado</option></select><select id="client"><option value="">Tous clients</option></select><select id="statusEom"><option value="">Tous Status EOM</option></select><select id="bucketEom"><option value="">Tous Buckets EOM</option></select><select id="rootcause"><option value="">Toutes Root causes</option></select><button class="btn secondary" id="clearFilters">Réinitialiser</button></div>
